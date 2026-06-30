@@ -1,0 +1,5 @@
+*.pptx
+*.mp4
+*.py
+repos.json
+deploy.ps1
