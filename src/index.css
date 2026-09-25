@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --font-economica: "Economica", sans-serif;
+  --font-raleway: "Raleway", sans-serif;
+
+  --color-bg: #0a0a0a;
+  --color-surface: #121212;
+  --color-surface-elevated: #171717;
+  --color-border: #262626;
+  --color-border-hover: #3a3a3a;
+  --color-text-primary: #fafafa;
+  --color-text-secondary: #a3a3a3;
+  --color-text-muted: #737373;
+  --color-accent-blue: #60a5fa;
+  --color-accent-purple: #a78bfa;
+  --color-accent-cyan: #67e8f9;
+  --color-accent-green: #34d399;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-raleway);
+    background-color: #0a0a0a;
+    color: #a3a3a3;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: var(--font-economica);
+    letter-spacing: 0.02em;
+  }
+
+  body {
+    font-family: var(--font-raleway);
+    background-color: #0a0a0a;
+    color: #a3a3a3;
+    overflow-x: hidden;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0a0a0a;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #262626;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3a3a3a;
+  }
+}
+
+/* Subtle tech grid background */
+.bg-tech-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}
