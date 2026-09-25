@@ -107,7 +107,7 @@ export const projects: Project[] = [
       "Crafted a responsive UI featuring SVG worm charts and instant scorecard exports.",
     ],
     tech: ["React", "TypeScript", "Tailwind CSS", "FSM", "State Persistence"],
-    githubUrl: "https://github.com/WaqarMoid",
+    githubUrl: "https://github.com/WaqarMoid/cricengine",
     badge: "Featured",
   },
   {
@@ -122,7 +122,7 @@ export const projects: Project[] = [
       "Deployed a multi-page Streamlit dashboard featuring interactive US choropleth heatmaps and risk analytics in Plotly.",
     ],
     tech: ["Python", "Streamlit", "Plotly", "Pandas", "Technical Indicators"],
-    githubUrl: "https://github.com/WaqarMoid",
+    githubUrl: "https://github.com/WaqarMoid/CS661_Project_Stock_Market_Performance_Analysis",
     badge: "CS661",
   },
   {
@@ -151,7 +151,7 @@ export const projects: Project[] = [
       "Trained an SVM model achieving 61% accuracy, performing on par with the benchmark ASRPro model.",
     ],
     tech: ["BioPython", "Scikit-Learn", "NetworkX", "SVM", "Protein Bioinformatics"],
-    githubUrl: "https://github.com/WaqarMoid",
+    githubUrl: "https://github.com/WaqarMoid/Stress-Resistance-Classification-via-Evolutionary-Networks",
     badge: "Research",
   },
   {
